@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* static: component SCSS reads these tokens as CSS variables, so they must always be emitted. */
+@theme static {
+  --color-surface: #ffffff;
+  --color-surface-muted: #eef0f2;
+  --color-ink: #1f2933;
+  --color-muted: #5b6673;
+  --color-line: #7a838e;
+  --color-accent: #1d65a6;
+  --color-danger: #b42336;
+  --color-green: #2c6e49;
+  --color-violet: #5b3fa8;
+  --color-orange: #a34d0c;
+  --radius-control: 0.5rem;
+}
+
+body {
+  min-width: 320px;
+  background-color: var(--color-surface-muted);
+  color: var(--color-ink);
+  overflow-wrap: anywhere;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}

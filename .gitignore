@@ -1,0 +1,7 @@
+node_modules/
+dist/
+storybook-static/
+coverage/
+mock_backend/db.json
+.DS_Store
+*.local
