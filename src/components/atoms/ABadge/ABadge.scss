@@ -1,0 +1,29 @@
+.badge {
+  display: inline-block;
+  border-radius: 9999px;
+  background-color: var(--color-surface-muted);
+  padding: 0.125rem 0.625rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+
+  &--green {
+    color: var(--color-green);
+    background-color: color-mix(in srgb, var(--color-green) 12%, var(--color-surface));
+  }
+
+  &--violet {
+    color: var(--color-violet);
+    background-color: color-mix(in srgb, var(--color-violet) 12%, var(--color-surface));
+  }
+
+  &--orange {
+    color: var(--color-orange);
+    background-color: color-mix(in srgb, var(--color-orange) 12%, var(--color-surface));
+  }
+
+  &--blue {
+    color: var(--color-accent);
+    background-color: color-mix(in srgb, var(--color-accent) 12%, var(--color-surface));
+  }
+}
